@@ -1,10 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
-int main(){
-    //int
+int main() 
+{
+    // * primitive data type 
+    
+    
+    // *int
     int x=10;
-    //long
+    // *long
     long x =15;
     cin >> x;
 
@@ -14,10 +18,23 @@ int main(){
 
     // float ,double 
 
-    float x = 5.6;
+    /*
+    ? int 4 bytes
+    ? char 1 bytes
+    ? float 4 bytes
+    ? double 8 bytes
+    
+    */
+
+    double price =100.99;
     float y =5;
 
-    return 0
+    float PI =3.14f;
+    bool isSafe = false;
+
+    cout << PI << endl; //true -> 1 & false -> 0
+
+    return 0 ;
 }
 
 
